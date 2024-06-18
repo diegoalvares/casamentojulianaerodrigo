@@ -1,0 +1,10 @@
+#tempero{
+    width: 300px;
+    height: 220px;  
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgb(122, 122, 122);
+}

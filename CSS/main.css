@@ -3,8 +3,8 @@
 }
 
 .card{
-    height: 530px;
-    width: 400px;
+    height: 580px;
+    width: 380px;
     background-color: white;
     box-shadow: 10px 10px 20px grey;
     margin: 40px;
@@ -56,13 +56,14 @@ h2{
     color: rgb(236, 182, 117);
     text-align: center;
     text-shadow: 2px 2px 3px rgb(68, 68, 68);
-    font-size: 35px;
+    font-size: 30px;
+    margin: 10px;
 }
 
 .preco{
     color: rgb(182, 100, 7);
     text-align: center;
     text-shadow: 2px 2px 3px rgb(68, 68, 68);
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 35px;
 }

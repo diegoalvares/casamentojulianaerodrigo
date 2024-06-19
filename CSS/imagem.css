@@ -1,4 +1,4 @@
-#tempero{
+#ferro{
     width: 300px;
     height: 220px;  
     margin: 30px;
@@ -7,4 +7,48 @@
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 2px 2px 20px rgb(122, 122, 122);
+}   
+
+#qrcode_chave{
+    position: absolute;
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: -710px;
+    width: 1600px;
+    margin-left: -50px;
+    height: 850px;  
+}
+
+.qrcode{
+    margin-left: 680px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.chave{
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    width: 600px;
+}
+
+#voltar{
+    margin-top: 30px;
+    background-color: bisque;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: none;
+    transition: 0.5s;
+    margin-left: 740px;
+    box-shadow: 1px 1px 10px grey;
+    text-decoration: none;
+    color: black;
 }

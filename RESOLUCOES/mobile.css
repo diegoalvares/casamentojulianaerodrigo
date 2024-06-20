@@ -34,7 +34,7 @@
     } 
 }
 
-@media (min-width: 480px){
+@media (min-width: 450px){
     header>h1{
         font-size: 30px;
     }

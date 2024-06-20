@@ -34,7 +34,7 @@
     } 
 
     #qrcode_chave{
-        display: block;
+        display: none;
         width: 320px;
         margin-left: -20px;
     }

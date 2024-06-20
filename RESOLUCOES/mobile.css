@@ -1,0 +1,35 @@
+@media (min-width: 320px){
+    header>h1{
+        font-size: 20px;
+    }
+
+    .container{
+        display: inline;
+    }
+
+    #ferro{
+        width: 180px;
+        height: 150px;
+    }
+
+    .card{
+        height: 420px;
+        width: 280px;
+        margin-left: 20px;
+    }
+
+    h2, .preco{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+
+    #cartao{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    #pix, #pix2, #pix3, #pix4, #pix5, #pix6, #pix7, #pix8, #pix9{
+        font-size: 20px;
+        margin-left: 63px;
+    } 
+}

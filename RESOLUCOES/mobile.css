@@ -33,12 +33,6 @@
         margin-left: 63px;
     } 
 
-    #qrcode_chave{
-        display: none;
-        width: 320px;
-        margin-left: -20px;
-    }
-
     .qrcode{
         margin-left: 40px;
         margin-top: 230px;
@@ -52,7 +46,16 @@
         font-size: 12px;
     }
 
-    #voltar{
+    #qrcode_chave, #qrcode_chave2, #qrcode_chave3, #qrcode_chave4,
+    #qrcode_chave5, #qrcode_chave6, #qrcode_chave7, #qrcode_chave8,
+    #qrcode_chave9{
+        display: none;
+        width: 330px;
+        margin-left: -20px;
+    }
+
+    #voltar, #voltar2, #voltar3, #voltar4, #voltar5, #voltar6,
+    #voltar7,#voltar8, #voltar9{ 
         margin-left: 110px;
     }
 }

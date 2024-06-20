@@ -1,4 +1,4 @@
-#container{
+.container{
     display: flex;
 }
 
@@ -84,4 +84,40 @@ h2{
     text-shadow: 2px 2px 3px rgb(68, 68, 68);
     font-size: 30px;
     margin-bottom: 35px;
+}
+
+#pix3{
+    background-color: bisque;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: none;
+    transition: 0.5s;
+    margin-top: 90px;
+    margin-left: 75px;
+    box-shadow: 1px 1px 10px grey;
+    text-decoration: none;
+    color: black;
+}
+
+#pix4{
+    background-color: bisque;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: none;
+    transition: 0.5s;
+    margin-top: 90px;
+    margin-left: 75px;
+    box-shadow: 1px 1px 10px grey;
+    text-decoration: none;
+    color: black;
 }

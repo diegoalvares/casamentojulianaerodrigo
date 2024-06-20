@@ -33,45 +33,27 @@
         margin-left: 63px;
     } 
 
-    .qrcode_chave{
+    #qrcode_chave{
         display: block;
-        width: 80px;
-    }
-}
-
-@media (min-width: 360px){
-    header>h1{
-        font-size: 25px;
+        width: 320px;
+        margin-left: -20px;
     }
 
-    .container{
-        display: inline;
+    .qrcode{
+        margin-left: 40px;
+        margin-top: 230px;
+        margin-bottom: 30px;
     }
 
-    #ferro{
-        width: 210px;
-        height: 180px;
+    .chave{
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 12px;
     }
 
-    .card{
-        height: 510px;
-        width: 310px;
-        margin-left: 30px;
+    #voltar{
+        margin-left: 140px;
     }
-
-    h2, .preco{
-        font-size: 24px;
-        margin-top: -5px;
-    }
-
-    #cartao{
-        font-size: 30px;
-        margin-left: 30px;
-    }
-
-    #pix, #pix2, #pix3, #pix4, #pix5, #pix6, #pix7, #pix8, #pix9{
-        font-size: 30px;
-        margin-left: 53px;
-    } 
 }
 

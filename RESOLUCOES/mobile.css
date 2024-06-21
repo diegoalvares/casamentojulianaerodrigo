@@ -60,3 +60,24 @@
     }
 }
 
+
+@media (min-width: 350px){
+    header>h1{
+        font-size: 20px;
+    }
+
+    .card{
+        margin-left: 40px;
+    }
+
+    #cartao{
+        font-size: 20px;
+        margin-left: 50px;
+    } 
+}
+
+@media (min-width: 380px){
+    .card{
+        margin-left: 50px;
+    }
+}

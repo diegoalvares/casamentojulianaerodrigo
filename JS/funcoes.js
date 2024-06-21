@@ -14,6 +14,8 @@ const voltar12 = document.getElementById('voltar12');
 const voltar13 = document.getElementById('voltar13');
 const voltar14 = document.getElementById('voltar14');
 const voltar15 = document.getElementById('voltar15');
+const voltar16 = document.getElementById('voltar16');
+const voltar17 = document.getElementById('voltar17');
 //-------------------------------------------------//
 
 //--------------------QR CODES-----------------------//
@@ -32,6 +34,8 @@ const qrcode12 = document.getElementById('qrcode_chave12')
 const qrcode13 = document.getElementById('qrcode_chave13')
 const qrcode14 = document.getElementById('qrcode_chave14')
 const qrcode15 = document.getElementById('qrcode_chave15')
+const qrcode16 = document.getElementById('qrcode_chave16')
+const qrcode17 = document.getElementById('qrcode_chave17')
 //-------------------------------------------------------//
 
 //------------------------PIX---------------------------//
@@ -50,6 +54,8 @@ const pix12 = document.getElementById('pix12')
 const pix13 = document.getElementById('pix13')
 const pix14 = document.getElementById('pix14')
 const pix15 = document.getElementById('pix15')
+const pix16 = document.getElementById('pix16')
+const pix17 = document.getElementById('pix17')
 //--------------------------------------------------------//
 
 //--------------FUNCÃO ABRIR E FECHAR PIX----------------//
@@ -173,5 +179,20 @@ voltar15.addEventListener('click', function(){
     qrcode15.style.display='none'
 })
 
+pix16.addEventListener('click', function(){
+    qrcode16.style.display='block'
+})
 
+voltar16.addEventListener('click', function(){
+    qrcode16.style.display='none'
+})
+
+
+pix17.addEventListener('click', function(){
+    qrcode17.style.display='block'
+})
+
+voltar17.addEventListener('click', function(){
+    qrcode17.style.display='none'
+})
 //-------------------------------------------------//

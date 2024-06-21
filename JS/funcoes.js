@@ -1,3 +1,4 @@
+//---------------BOTÕES DE VOLTAR--------------//
 const voltar = document.getElementById('voltar');
 const voltar2 = document.getElementById('voltar2');
 const voltar3 = document.getElementById('voltar3');
@@ -10,6 +11,9 @@ const voltar9 = document.getElementById('voltar9');
 const voltar10 = document.getElementById('voltar10');
 const voltar11 = document.getElementById('voltar11');
 const voltar12 = document.getElementById('voltar12');
+//-------------------------------------------------//
+
+//--------------------QR CODES-----------------------//
 const qrcode = document.getElementById('qrcode_chave')
 const qrcode2 = document.getElementById('qrcode_chave2')
 const qrcode3 = document.getElementById('qrcode_chave3')
@@ -22,6 +26,9 @@ const qrcode9 = document.getElementById('qrcode_chave9')
 const qrcode10 = document.getElementById('qrcode_chave10')
 const qrcode11 = document.getElementById('qrcode_chave11')
 const qrcode12 = document.getElementById('qrcode_chave12')
+//-------------------------------------------------------//
+
+//------------------------PIX---------------------------//
 const pix = document.getElementById('pix')
 const pix2 = document.getElementById('pix2')
 const pix3 = document.getElementById('pix3')
@@ -34,8 +41,9 @@ const pix9 = document.getElementById('pix9')
 const pix10 = document.getElementById('pix10')
 const pix11 = document.getElementById('pix11')
 const pix12 = document.getElementById('pix12')
+//--------------------------------------------------------//
 
-
+//--------------FUNCÃO ABRIR E FECHAR PIX----------------//
 pix.addEventListener('click', function(){
     qrcode.style.display='block'
 })
@@ -131,3 +139,4 @@ pix12.addEventListener('click', function(){
 voltar12.addEventListener('click', function(){
     qrcode12.style.display='none'
 })
+//-------------------------------------------------//

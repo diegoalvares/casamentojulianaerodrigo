@@ -1,4 +1,4 @@
-#ferro{
+.foto{
     width: 300px;
     height: 220px;  
     margin: 30px;
@@ -8,16 +8,6 @@
     cursor: pointer;
     box-shadow: 2px 2px 20px rgb(122, 122, 122);
 }   
-
-#qrcode_chave{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
-    margin-left: -50px;
-    height: 850px;  
-}
 
 .qrcode{
     margin-left: 680px;
@@ -33,316 +23,65 @@
     width: 600px;
 }
 
-#voltar{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 740px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
+#qrcode_chave, #qrcode_chave2, #qrcode_chave3, #qrcode_chave4, #qrcode_chave5, #qrcode_chave6, #qrcode_chave7, #qrcode_chave8, #qrcode_chave9, #qrcode_chave10, #qrcode_chave11, #qrcode_chave12{
+    position: absolute;
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: -710px;
+    width: 1600px;
+    height: 850px;  
+}
+
+#qrcode_chave{
+    margin-left: -50px;
 }
 
 #qrcode_chave2{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -500px;
-    height: 850px;  
 }
 
 #qrcode_chave3{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -960px;
-    height: 850px;  
 }
 
 #qrcode_chave4{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -40px;
-    height: 850px;  
 }
 
 #qrcode_chave5{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -500px;
-    height: 850px;
 }
 
 #qrcode_chave6{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -970px;
-    height: 850px;
 }
 
 #qrcode_chave7{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -50px;
-    height: 850px;
 }
 
 #qrcode_chave8{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -500px;
-    height: 850px;
 }
 
 #qrcode_chave9{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -970px;
-    height: 850px;
 }
 
 #qrcode_chave10{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -970px;
-    height: 850px;
 }
 
 #qrcode_chave11{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -970px;
-    height: 850px;
 }
 
 #qrcode_chave12{
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,0.7);
-    margin-top: -710px;
-    width: 1600px;
     margin-left: -970px;
-    height: 850px;
 }
 
-#voltar2{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-
-#voltar3{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar4{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar5{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar6{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar7{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar8{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar9{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar10{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar11{
-    margin-top: 30px;
-    background-color: bisque;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: none;
-    transition: 0.5s;
-    margin-left: 750px;
-    box-shadow: 1px 1px 10px grey;
-    text-decoration: none;
-    color: black;
-}
-
-#voltar12{
+#voltar, #voltar2, #voltar3, #voltar4, #voltar5, #voltar6, #voltar7,
+#voltar8, #voltar9, #voltar10, #voltar11, #voltar12{
     margin-top: 30px;
     background-color: bisque;
     text-align: center;

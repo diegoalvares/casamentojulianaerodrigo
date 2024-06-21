@@ -11,6 +11,9 @@ const voltar9 = document.getElementById('voltar9');
 const voltar10 = document.getElementById('voltar10');
 const voltar11 = document.getElementById('voltar11');
 const voltar12 = document.getElementById('voltar12');
+const voltar13 = document.getElementById('voltar13');
+const voltar14 = document.getElementById('voltar14');
+const voltar15 = document.getElementById('voltar15');
 //-------------------------------------------------//
 
 //--------------------QR CODES-----------------------//
@@ -26,6 +29,9 @@ const qrcode9 = document.getElementById('qrcode_chave9')
 const qrcode10 = document.getElementById('qrcode_chave10')
 const qrcode11 = document.getElementById('qrcode_chave11')
 const qrcode12 = document.getElementById('qrcode_chave12')
+const qrcode13 = document.getElementById('qrcode_chave13')
+const qrcode14 = document.getElementById('qrcode_chave14')
+const qrcode15 = document.getElementById('qrcode_chave15')
 //-------------------------------------------------------//
 
 //------------------------PIX---------------------------//
@@ -41,6 +47,9 @@ const pix9 = document.getElementById('pix9')
 const pix10 = document.getElementById('pix10')
 const pix11 = document.getElementById('pix11')
 const pix12 = document.getElementById('pix12')
+const pix13 = document.getElementById('pix13')
+const pix14 = document.getElementById('pix14')
+const pix15 = document.getElementById('pix15')
 //--------------------------------------------------------//
 
 //--------------FUNCÃO ABRIR E FECHAR PIX----------------//
@@ -139,4 +148,30 @@ pix12.addEventListener('click', function(){
 voltar12.addEventListener('click', function(){
     qrcode12.style.display='none'
 })
+
+pix13.addEventListener('click', function(){
+    qrcode13.style.display='block'
+})
+
+voltar13.addEventListener('click', function(){
+    qrcode13.style.display='none'
+})
+
+pix14.addEventListener('click', function(){
+    qrcode14.style.display='block'
+})
+
+voltar14.addEventListener('click', function(){
+    qrcode14.style.display='none'
+})
+
+pix15.addEventListener('click', function(){
+    qrcode15.style.display='block'
+})
+
+voltar15.addEventListener('click', function(){
+    qrcode15.style.display='none'
+})
+
+
 //-------------------------------------------------//

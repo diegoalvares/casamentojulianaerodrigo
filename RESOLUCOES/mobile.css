@@ -28,7 +28,7 @@
         margin-left: 50px;
     }
 
-    #pix, #pix2, #pix3, #pix4, #pix5, #pix6, #pix7, #pix8, #pix9, #pix10, #pix11, #pix12{
+    #pix, #pix2, #pix3, #pix4, #pix5, #pix6, #pix7, #pix8, #pix9, #pix10, #pix11, #pix12, #pix13, #pix14, #pix15{
         font-size: 20px;
         margin-left: 63px;
     } 
@@ -48,14 +48,14 @@
 
     #qrcode_chave, #qrcode_chave2, #qrcode_chave3, #qrcode_chave4,
     #qrcode_chave5, #qrcode_chave6, #qrcode_chave7, #qrcode_chave8,
-    #qrcode_chave9, #qrcode_chave10, #qrcode_chave11, #qrcode_chave12{
+    #qrcode_chave9, #qrcode_chave10, #qrcode_chave11, #qrcode_chave12, #qrcode_chave13, #qrcode_chave14, #qrcode_chave15{
         display: none;
         width: 330px;
         margin-left: -20px;
     }
 
     #voltar, #voltar2, #voltar3, #voltar4, #voltar5, #voltar6,
-    #voltar7,#voltar8, #voltar9, #voltar10, #voltar11, #voltar12{ 
+    #voltar7,#voltar8, #voltar9, #voltar10, #voltar11, #voltar12, #voltar13, #voltar14, #voltar15{ 
         margin-left: 110px;
     }
 }

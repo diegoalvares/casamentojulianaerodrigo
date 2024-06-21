@@ -23,7 +23,7 @@
     width: 600px;
 }
 
-#qrcode_chave, #qrcode_chave2, #qrcode_chave3, #qrcode_chave4, #qrcode_chave5, #qrcode_chave6, #qrcode_chave7, #qrcode_chave8, #qrcode_chave9, #qrcode_chave10, #qrcode_chave11, #qrcode_chave12{
+#qrcode_chave, #qrcode_chave2, #qrcode_chave3, #qrcode_chave4, #qrcode_chave5, #qrcode_chave6, #qrcode_chave7, #qrcode_chave8, #qrcode_chave9, #qrcode_chave10, #qrcode_chave11, #qrcode_chave12, #qrcode_chave13, #qrcode_chave14, #qrcode_chave15{
     position: absolute;
     display: none;
     background-color: rgba(0,0,0,0.7);
@@ -80,8 +80,20 @@
     margin-left: -970px;
 }
 
+#qrcode_chave13{
+    margin-left: -970px;
+}
+
+#qrcode_chave14{
+    margin-left: -970px;
+}
+
+#qrcode_chave15{
+    margin-left: -970px;
+}
+
 #voltar, #voltar2, #voltar3, #voltar4, #voltar5, #voltar6, #voltar7,
-#voltar8, #voltar9, #voltar10, #voltar11, #voltar12{
+#voltar8, #voltar9, #voltar10, #voltar11, #voltar12, #voltar13, #voltar14, #voltar15{
     margin-top: 30px;
     background-color: bisque;
     text-align: center;
